@@ -51,12 +51,12 @@
                 <div class="collapse navbar-collapse" id="collapsableNavigation">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link text-body-emphasis" aria-current="page" href="#">Home</a>
+                        <a class="nav-link text-body" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle text-body" href="#" data-bs-toggle="dropdown" aria-expanded="false">For Participants</a>
                         <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Privacy</a></li>
+                        <li><a class="dropdown-item" href="/privacy">Privacy</a></li>
                         <li><a class="dropdown-item" href="#">FAQ</a></li>
                         </ul>
                     </li>
@@ -83,12 +83,12 @@
                 </div>
             </div>
         </nav>
-        <div id='content'>
+        <div class='container'>
             {% block content %}
                 {{ node.html }}
             {% endblock %}
         </div>
-        <footer class="bg-body-secondary">
+        <footer class="mt-auto bg-body-secondary">
             <div class="container">
                 <div class="row align-items-center py-2">
                     <div class="d-flex col-12 col-lg-6 justify-content-center justify-content-lg-start py-2">
