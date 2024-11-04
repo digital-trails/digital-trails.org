@@ -1,0 +1,6 @@
+
+# Output from ark build
+out/**
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
