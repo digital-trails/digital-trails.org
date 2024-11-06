@@ -1,0 +1,14 @@
+[
+    {
+       "relation": [
+          "delegate_permission/common.handle_all_urls"
+       ],
+       "target": {
+          "namespace": "android_app",
+          "package_name": "edu.virginia.digitaltrails",
+          "sha256_cert_fingerprints": [
+             "1C:22:11:52:A2:F2:0D:07:1F:04:EE:9C:C7:38:5B:76:94:76:35:F2:71:86:2F:40:73:22:42:62:9E:96:17:76"
+          ]
+       }
+    }
+]
