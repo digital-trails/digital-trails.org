@@ -9,8 +9,16 @@
     "details": [
       {
         "appID": "edu.virgnia.digitaltrails",
-        "paths": [ "/", "consent/*", "/consent/*", "consent/*", https://digital-trails.org/consent/* ]
+        "paths": [ "*", "/*" ]
       }
     ]
-  }
+  },
+     "webcredentials": {
+        "apps": [ "edu.virgnia.digitaltrails" ]
+     },
+  
+  
+      "appclips": {
+          "apps": ["edu.virgnia.digitaltrails"]
+      }
 }
