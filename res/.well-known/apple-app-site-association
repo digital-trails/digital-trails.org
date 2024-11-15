@@ -1,4 +1,9 @@
 {
+"activitycontinuation": {
+      "apps": [
+        "edu.virgnia.digitaltrails"
+      ]
+  },
   "applinks": {
     "apps": [],
     "details": [
