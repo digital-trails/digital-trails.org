@@ -12,13 +12,5 @@
         "paths": [ "*", "/*" ]
       }
     ]
-  },
-     "webcredentials": {
-        "apps": [ "edu.virgnia.digitaltrails" ]
-     },
-  
-  
-      "appclips": {
-          "apps": ["edu.virgnia.digitaltrails"]
-      }
+  }
 }
