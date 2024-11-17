@@ -1,3 +1,8 @@
+---
+title: "Privacy Policy"
+description: "Find out how Digital Trails handles your data."
+---
+
 # Privacy Policy
 
 ## Data Collection
