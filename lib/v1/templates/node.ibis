@@ -107,21 +107,6 @@
                             </svg>
                         </a>
                     </div>
-
-                    <!-- Left over code from having an image in the center and a nav on the bottom right of the footer -->
-                    <!--
-                        <a href="/" class="d-flex col-12 col-lg-2 justify-content-center">
-                            <img src="/assets/logo.svg" style="width:30px"/>
-                        </a>
-
-                        <ul class="nav col-12 col-lg-5 justify-content-center justify-content-lg-end">
-                            <li class="nav-item"><a href="#" class="nav-link px-2 text-secondary">Home</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link px-2 text-secondary">Features</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link px-2 text-secondary">FAQs</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link px-2 text-secondary">Team</a></li>
-                        </ul>
-                    -->
-
                 </div>
             </div>
         </footer>
