@@ -1,18 +1,32 @@
-.hero-unit {
-    padding: 50px;
-    border-radius: 6px;
+.accordion {
+    --bs-accordion-btn-bg: #9119f610;
+    --bs-accordion-active-bg: #9119f640; /*background color of opened accordion*/
 }
 
-.hero-unit .tl {
-    border-radius: 6px 0px 0px 0px;
+html {
+	/* force the scroll bar to show so that 
+	 * content doesn't shift between pages */
+	overflow-y: scroll;
 }
 
-.hero-unit .br {
-    border-radius: 0px 0px 6px 0px;
+.r-6 {
+    border-radius: 6px
 }
 
+.rtl-6 {
+    border-top-left-radius: 6px
+}
+
+.rbr-6 {
+    border-bottom-right-radius: 6px
+}
 
 .footer {
     display: block;
     unicode-bidi: isolate;
+}
+
+.feature-icon-small {
+    width: 3rem;
+    height: 3rem;
 }

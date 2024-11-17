@@ -3,25 +3,24 @@ description: "Digital Trails"
 ---
 
 <div class="container">
-  
   <!-- Main hero unit for a primary marketing message or call to action -->
-  <div class="row my-5">
-    <div class="col hero-unit bg-body-secondary text-center" style="position:relative">
-      <svg class = 'tl' viewBox="30 50 70 50" style="width:140; height:100; position:absolute; top:0px; left:0px">
+  <div class="row mb-5">
+    <div class="col r-6 py-5 bg-body-secondary text-center" style="position:relative">
+      <svg class = 'rtl-6' viewBox="30 50 70 50" style="width:140; height:100; position:absolute; top:0px; left:0px">
         <circle cx="50" cy="50" r="50" fill="#9119f6"/>
       </svg>
-      <div class="row mb-3">
-        <h1 class="col-5 col-lg-4 mx-auto">Discover the Next Digital Frontier</h1>
-      </div>
-      <p><a class="btn btn-primary btn-large">Learn more »</a></p>
-      <svg class = 'br' viewBox="0 0 70 50" style="width:140; height:100; position:absolute; right:0px; bottom:0px">
+      <svg class = 'rbr-6' viewBox="0 0 70 50" style="width:140; height:100; position:absolute; right:0px; bottom:0px">
         <circle cx="50" cy="50" r="50" fill="#e16bfc" />
       </svg>
+      <div class="row pb-4">
+        <h1 class="col-5 col-lg-4 mx-auto my-0">Discover the Next Digital Frontier</h1>
+      </div>
+      <a class="btn btn-primary btn-large">Learn more</a>
     </div>
   </div>
 
   <!-- Example row of columns -->
-  <div class="row my-5">
+  <div class="row mb-5">
     <div class="col-12 col-md-4" style="position:relative">
       <img src="/assets/fill.svg" style="width:99%; height:99%; position:absolute; top:0px; left:0px"/>
       <h2>Heading</h2>
@@ -39,6 +38,47 @@ description: "Digital Trails"
       <h2>Heading</h2>
       <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
       <p><a class="btn" href="#">View details »</a></p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="accordion px-0" id="accordionHome">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="heading1">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+            What is Digital Trails?
+          </button>
+        </h2>
+        <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="heading1" data-bs-parent="#accordionHome">
+          <div class="accordion-body">
+            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="heading2">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+            Can I use Digital Trails to run my own study?
+          </button>
+        </h2>
+        <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#accordionHome">
+          <div class="accordion-body">
+            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="heading3">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+            How is my data and privacy protected on Digital Trails?
+          </button>
+        </h2>
+        <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#accordionHome">
+          <div class="accordion-body">
+            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
