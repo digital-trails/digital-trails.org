@@ -8,17 +8,14 @@
       "apps":[],
       "details":[
          {
-            "appID":"L8C6JE7MP8.edu.virgnia.digitaltrails",
             "appIDs":[
                "L8C6JE7MP8.edu.virgnia.digitaltrails"
             ],
-            "paths":[
-               "*",
-               "/*"
-            ],
             "components":[
                {
-                  "/":"*"
+                  "/":"*",
+                  "exclude": true,
+                  "comment": "test" 
                }
             ]
          }
