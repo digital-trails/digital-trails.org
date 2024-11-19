@@ -1,14 +1,14 @@
 {
 "activitycontinuation": {
       "apps": [
-        "edu.virgnia.digitaltrails"
+        "L8C6JE7MP8.edu.virgnia.digitaltrails"
       ]
   },
   "applinks": {
     "apps": [],
     "details": [
       {
-        "appID": "edu.virgnia.digitaltrails",
+        "appID": "L8C6JE7MP8.edu.virgnia.digitaltrails",
         "paths": [ "*", "/*" ]
       }
     ]
