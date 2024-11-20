@@ -5,7 +5,9 @@
       ]
    },
    "applinks":{
-      "apps":[],
+      "apps":[
+         
+      ],
       "details":[
          {
             "appIDs":[
@@ -13,12 +15,16 @@
             ],
             "components":[
                {
-                  "/":"*",
-                  "exclude": true,
-                  "comment": "test" 
+                  "/":"/consent*",
+                  "comment":"Matches any URL beginning with /consent"
                }
             ]
          }
+      ]
+   },
+   "webcredentials":{
+      "apps":[
+         "L8C6JE7MP8.edu.virginia.digitaltrails"
       ]
    }
 }
