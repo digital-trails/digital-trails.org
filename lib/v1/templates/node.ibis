@@ -54,24 +54,23 @@
 
                 <div class="collapse navbar-collapse" id="collapsableNavigation">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <!--<li class="nav-item"><a class="nav-link text-body" aria-current="page" href="#">Home</a></li>-->
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle text-body" href="#" data-bs-toggle="dropdown" aria-expanded="false">For Participants</a>
                             <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="/faq">FAQ</a></li>
-                            <li><a class="dropdown-item" href="/privacy">Privacy</a></li>
+                                <li><a class="dropdown-item" href="/faq">FAQ</a></li>
+                                <li><a class="dropdown-item" href="/privacy">Privacy</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle text-body" href="#" data-bs-toggle="dropdown" aria-expanded="false">For Researchers</a>
                             <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="/starting">Getting Started</a></li>
-                            <li><a class="dropdown-item" href="/grants">Grant Support</a></li>
-                            <li><a class="dropdown-item" href="/development">Custom Development</a></li>
+                                <li><a class="dropdown-item" href="/starting">Getting Started</a></li>
+                                <li><a class="dropdown-item" href="/grants">Grant Support</a></li>
+                                <li><a class="dropdown-item" href="/development">Custom Development</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="/about">About Us</a>
+                            <a class="nav-link text-body" href="/about">About Us</a>
                         </li>
                     </ul>
                     <form role="search">
