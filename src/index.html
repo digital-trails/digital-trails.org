@@ -15,7 +15,7 @@ description: "Digital Trails"
       <div class="row pb-4">
         <h1 class="col-5 col-lg-4 mx-auto my-0">Discover the Next Digital Frontier</h1>
       </div>
-      <a class="btn btn-primary btn-large">Learn more</a>
+      <a class="btn btn-primary btn-large" href="#HomeFAQ">Learn more</a>
     </div>
   </div>
 
@@ -40,7 +40,9 @@ description: "Digital Trails"
     </div>
   </div>
 
-  <div class="row">
+  <a name="HomeFAQ"></a>
+
+  <div class="row mb-5">
     <div class="accordion px-0" id="accordionHome">
       <div class="accordion-item">
         <h2 class="accordion-header" id="heading1">
@@ -50,19 +52,25 @@ description: "Digital Trails"
         </h2>
         <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="heading1" data-bs-parent="#accordionHome">
           <div class="accordion-body">
-            <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            Digital Trails is an end-to-end mobile app for sensing, surveys, and interventions on iOS and Android. 
+            Researchers like Digital Trails because they can conduct sophistcated studies without any software development.
+            App users like Digital Trails because they can participate in and contribute to research they care about.
           </div>
         </div>
       </div>
       <div class="accordion-item">
         <h2 class="accordion-header" id="heading2">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
-            Can I use Digital Trails to run my own study?
+            Can I use Digital Trails in my research?
           </button>
         </h2>
         <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#accordionHome">
           <div class="accordion-body">
-            <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            Digital Trails is currently in limited release. We hope to make it widely available middle of next year.
+            <!--Absolutely! We'd love to work with you on your research. If all you need is Digital
+            Trails, learn how to get started with it <a href="/quickstart">here</a>. If you 
+            need more, learn how we can work together via <a href="/grants">grants</a> or 
+            <a href="/development">custom development</a>.-->
           </div>
         </div>
       </div>
@@ -74,8 +82,72 @@ description: "Digital Trails"
         </h2>
         <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#accordionHome">
           <div class="accordion-body">
-            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            Digital Trails was built first and foremost with privacy in mind. All data is encrypted over 
+            the wire and at-rest. Personally identifiable information is stored separately from data
+            collected in the app. Participants always have the option to end participation in any study,
+            at any time, and request that all of their data be deleted.
           </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row row-cols-1 row-cols-md-2 align-items-md-center gy-4">
+    <div class="col d-flex align-self-stretch px-3">
+      <div class="col d-flex align-self-stretch hero r-6 p-4">
+        <div class="my-auto">
+          <div class="d-flex flex-column align-items-start gap-2">
+            <h2 class="fw-bold text-body-emphasis my-0">Built by researchers for researchers</h2>
+            <div class="text-body-secondary">Digital Trails has been packed with features to support state of the art research. If you need a feature that doesn't currently exist, reach out. Our team can add features for you.</div>
+            <a href="#" class="btn btn-primary btn-lg">Get started</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="row row-cols-1 row-cols-sm-2 g-4">
+        <div class="col d-flex flex-column gap-2">
+          <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+            <i class="bi-cpu" style="font-size: 2rem; color: white;"></i>
+          </div>
+          <h4 class="fw-semibold mb-0 text-body-emphasis">Native performance</h4>
+          <div class="text-body-secondary">Run studies natively on iOS and Android to get consistent performance for all participants.</div>
+        </div>
+        <div class="col d-flex flex-column gap-2">
+          <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+            <!--bi-bullseye-->
+            <i class="bi-broadcast" style="font-size: 2rem; color: white;"></i>
+          </div>
+          <h4 class="fw-semibold mb-0 text-body-emphasis">Passive sensing</h4>
+          <div class="text-body-secondary">Collect data from on-device sensors according to custom sampling rates and rules.</div>
+        </div>
+        <div class="col d-flex flex-column gap-2">
+          <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+            <i class="bi-ui-checks" style="font-size: 2rem; color: white;"></i>
+          </div>
+          <h4 class="fw-semibold mb-0 text-body-emphasis">Active sensing</h4>
+          <div class="text-body-secondary">Send surveys to participants according to either deterministic or stochastic schedules.</div>
+        </div>
+        <div class="col d-flex flex-column gap-2">
+          <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+            <i class="bi-pencil-square" style="font-size: 2rem; color: white;"></i>
+          </div>
+          <h4 class="fw-semibold mb-0 text-body-emphasis">In-app consent</h4>
+          <div class="text-body-secondary">Use any online platform to e-consent participants (e.g., Qualtrics, Docusign, or REDCap).</div>
+        </div>
+        <div class="col d-flex flex-column gap-2">
+          <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+            <i class="bi-person-lock" style="font-size: 2rem; color: white;"></i>
+          </div>
+          <h4 class="fw-semibold mb-0 text-body-emphasis">Privacy first</h4>
+          <div class="text-body-secondary">Protect privacy by storing personal identifiable information separately.</div>
+        </div>
+        <div class="col d-flex flex-column gap-2">
+          <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+            <i class="bi-safe" style="font-size: 2rem; color: white;"></i>
+          </div>
+          <h4 class="fw-semibold mb-0 text-body-emphasis">Data security</h4>
+          <div class="text-body-secondary">Secure data using encryption, both over the wire and in the cloud.</div>
         </div>
       </div>
     </div>
