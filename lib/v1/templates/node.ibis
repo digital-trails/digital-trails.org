@@ -59,6 +59,7 @@
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="/faq">FAQ</a></li>
                                 <li><a class="dropdown-item" href="/privacy">Privacy</a></li>
+                                <li><a class="dropdown-item" href="/deletion">Deletion</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
