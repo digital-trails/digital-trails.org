@@ -12,3 +12,4 @@ To delete your data from a Digital Trails study please complete two steps:
     1. A statement that you wish to delete your data
     2. Your full name
     3. The name of the study to delete data from
+ 3. We will respond within a week to confirm when all of your data was deleted
