@@ -3,7 +3,7 @@ title: "Data Deletion"
 description: "Learn how to request your data be deleted"
 ---
 
-# Data Deletion
+# Data Deletion for Digital Trails
 
 To delete your data from a Digital Trails study please complete two steps:
 
