@@ -17,6 +17,10 @@
                {
                   "/":"/consent*",
                   "comment":"Matches any URL beginning with /consent"
+               },
+               {
+                  "/"："/.auth/login/google/callback",
+                  "comment":"Handles Google authentication callback"
                }
             ]
          }
