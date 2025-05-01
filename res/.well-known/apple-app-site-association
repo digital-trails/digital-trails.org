@@ -1,34 +1,34 @@
 {
-   "activitycontinuation":{
-      "apps":[
-         "L8C6JE7MP8.edu.virginia.digitaltrails"
-      ]
-   },
-   "applinks":{
-      "apps":[
-         
-      ],
-      "details":[
-         {
-            "appIDs":[
-               "L8C6JE7MP8.edu.virginia.digitaltrails"
-            ],
-            "components":[
-               {
-                  "/":"/consent*",
-                  "comment":"Matches any URL beginning with /consent"
-               },
-               {
-                  "/"："/.auth/login/google/callback",
-                  "comment":"Handles Google authentication callback"
-               }
-            ]
-         }
-      ]
-   },
-   "webcredentials":{
-      "apps":[
-         "L8C6JE7MP8.edu.virginia.digitaltrails"
-      ]
-   }
+  "activitycontinuation": {
+    "apps": [
+      "L8C6JE7MP8.edu.virginia.digitaltrails"
+    ]
+  },
+  "applinks": {
+    "apps": [
+      
+    ],
+    "details": [
+      {
+        "appIDs": [
+          "L8C6JE7MP8.edu.virginia.digitaltrails"
+        ],
+        "components": [
+          {
+            "/": "/consent*",
+            "comment": "Matches any URL beginning with /consent"
+          },
+          {
+            "/": "/.auth/login/google/callback",
+            "comment": "Handles Google authentication callback"
+          }
+        ]
+      }
+    ]
+  },
+  "webcredentials": {
+    "apps": [
+      "L8C6JE7MP8.edu.virginia.digitaltrails"
+    ]
+  }
 }
