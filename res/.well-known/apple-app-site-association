@@ -21,6 +21,10 @@
           {
             "/": "/.auth/login/google/callback",
             "comment": "Handles Google authentication callback"
+          },
+          {
+            "/": "/enroll?code=*",
+            "comment": "Handles enrollment with code parameter"
           }
         ]
       }
