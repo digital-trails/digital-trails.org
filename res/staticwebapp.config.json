@@ -2,5 +2,9 @@
     "mimeTypes": {
         ".html": "text/html",
         ".json": "application/json"
-    }
+    },
+    "navigationFallback": {
+    "rewrite": "/download.html",
+    "exclude": ["/enroll*"]
+  }
 }
