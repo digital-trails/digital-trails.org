@@ -13,7 +13,3 @@ The message will contain a secure link to:
 2. Open the app to enroll in the study  
 
 *Simply click the same link again after installation to complete your enrollment.*
-
----
-
-*Need help? Contact our team at support@study.org or (555) 123-4567*
