@@ -11,20 +11,12 @@ Thank you for participating in the Digital Trails research program. To get start
 
 ### App Store (iOS)
 <div style="display: flex; align-items: center; margin-bottom: 20px;">
-  <img src="/assets/apple-store.png" alt="App Store Icon" style="margin-right: 15px; width:150px" />
-  <div>
-    <p>For iPhone and iPad users:</p>
-    <a href="https://apps.apple.com/us/app/digital-trails-research/id6741073560" class="btn btn-primary" style="background-color: #0D96F6; border-color: #0D96F6;">Download on the App Store</a>
-  </div>
+   <a href="https://apps.apple.com/us/app/digital-trails-research/id6741073560" class="btn btn-primary" style="background-color: #0D96F6; border-color: #0D96F6;">Download on the App Store</a>
 </div>
 
 ### Google Play Store (Android)
 <div style="display: flex; align-items: center; margin-bottom: 20px;">
-  <img src="/assets/google-store.png" alt="Google Play Icon" style="margin-right: 15px; width:150px" />
-  <div>
-    <p>For Android users:</p>
-    <a href="https://play.google.com/store/apps/details?id=edu.virginia.digitaltrails" class="btn btn-primary" style="background-color: #01875F; border-color: #01875F;">Get it on Google Play</a>
-  </div>
+  <a href="https://play.google.com/store/apps/details?id=edu.virginia.digitaltrails" class="btn btn-primary" style="background-color: #01875F; border-color: #01875F;">Get it on Google Play</a>
 </div>
 
 ## After Installation
