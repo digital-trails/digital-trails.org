@@ -15,7 +15,7 @@
         ],
         "components": [
           {
-            "/": "/enroll*",
+            "/": "/api/v1/enroll*",
             "?": {
               "code": "*"
             },
