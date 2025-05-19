@@ -2,12 +2,5 @@
     "mimeTypes": {
         ".html": "text/html",
         ".json": "application/json"
-    },
-    "routes": [
-        {
-            "route": "/test-config-works",
-            "redirect": "/",
-            "statusCode": 302
-        }
-    ]
+    }
 }
