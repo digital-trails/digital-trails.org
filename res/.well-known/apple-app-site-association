@@ -20,6 +20,13 @@
               "code": "*"
             },
             "comment": "Handles enrollment with code parameter"
+          },
+          {
+            "/": "/auth*",
+            "?": {
+              "token": "*"
+            },
+            "comment": "Handles auth with access token parameter"
           }
         ]
       }
