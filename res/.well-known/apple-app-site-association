@@ -24,7 +24,7 @@
           {
             "/": "/auth*",
             "?": {
-              "token": "*"
+              "code": "*"
             },
             "comment": "Handles auth with access token parameter"
           }
