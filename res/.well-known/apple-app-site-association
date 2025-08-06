@@ -23,14 +23,14 @@
           },
           {
             "/": "/auth*",
-            "#": {
-              "access_token": "*"
+            "?": {
+              "code": "*"
             },
             "comment": "Handles auth with access token parameter"
           },
           {
             "/": "/auth*",
-            "#": {
+            "?": {
               "error": "*"
             },
             "comment": "Handles auth with error code parameter"
