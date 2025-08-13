@@ -1,6 +1,6 @@
 ---
 title: "Privacy Policy"
-description: "Find out how Digital Trails handles your data."
+description: "Digital Trails privacy policy."
 ---
 
 # Privacy Policy
