@@ -202,10 +202,7 @@ You acknowledge and agree that the Services may contain or be accompanied by cer
 
 In order to resolve a complaint regarding the Services or to receive further information regarding use of the Services, please contact us at:
 
-**UVA Apps LLC**
-
-**722 Preston Ave Ste 107**
-
-**Charlottesville, VA 22903**
-
+**UVA Apps LLC** <br />
+**722 Preston Ave Ste 107** <br />
+**Charlottesville, VA 22903** <br />
 **United States**
