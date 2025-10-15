@@ -11,6 +11,7 @@ You'll receive enrollment instructions shortly via:
 Please open the message on your phone or tablet.
 
 The message will contain a secure link to:  
+
 1. Install **Digital Trails** (if not already installed). 
 
 2. Open the app to enroll in the study
