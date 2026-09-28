@@ -4,17 +4,7 @@
         ".json": "application/json"
     },
     "globalHeaders": {
-        "Access-Control-Allow-Origin": "https://digitaltrailsuva.b2clogin.com",
-        "Access-Control-Allow-Methods": "GET"
-    },
-    "routes": [
-        {
-            "route": "/auth",
-            "rewrite": "/auth/index.html"
-        },
-        {
-            "route": "/auth/*",
-            "rewrite": "/auth/index.html"
-        }
-    ]
+    "Access-Control-Allow-Origin": "https://digitaltrailsuva.b2clogin.com",
+    "Access-Control-Allow-Methods": "GET"
+  }
 }
